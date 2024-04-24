@@ -51,12 +51,12 @@
                 right: 0;
                 background-color: #fbfbfb8f;
                 padding: 20px;
-                top: 0px;
+                top: 50%;
+                transform: translateY(-50%);
                 z-index: 1000;
                 color: #3b3e4a;
                 border-radius: 8px;
                 box-shadow: 0px 5px 6px -2px rgb(0 0 0 / 14%);
-                transform: translateY(120px);
             }
             
             .cookie-png > img {
@@ -170,9 +170,8 @@
             
             @media only screen and (max-width: 600px) and (min-width: 320px) {
                 .cookie-popup.show {
-                    transform: translateY(30px);
-                    margin: 0px;
-                    background-color: #fbfbfb75;
+                    margin: 20px;
+                    background-color: #fbfbfbd7;
                 }
             
                 .cookie-double-btn button {
@@ -191,20 +190,13 @@
             }
             
             @media only screen and (max-width: 1024px) and (min-width: 768px) {
-                .cookie-popup {
-                    transform: translateY(70px);
-                }
-            
+                
                 .cookie-overlay-2{
                     display: none;
                 }
             }
             
             @media only screen and (min-width: 1025px) {
-                .cookie-popup {
-                    transform: translateY(80px);
-                }
-                
                 .cookie-overlay-2 {
                     display: none;
                 }
